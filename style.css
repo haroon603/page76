@@ -106,10 +106,10 @@ tr,td{
     padding-top: 29px !important;
 }
 
-.tbl-even thead tr {
-    border: 1px solid #B2B2B2; 
+.tbl-even thead tr { 
     background-color: #F7F8FA; 
     height: 53px;
+    border-radius: 10px !important;
 }
 
 .tbl-even thead tr td:first-child {
@@ -149,6 +149,11 @@ tr,td{
 }
 
 .fs-17 {
+    font-size: 17px;
+    line-height: 19px;
+}
+
+.fs-17-1 {
     font-size: 17px;
     line-height: 19px;
 }
@@ -458,6 +463,10 @@ input:checked + .slider:before {
         font-size: 16px;
         line-height: 18px;
     }
+    .fs-17-1 {
+        font-size: 16px;
+        line-height: 18px;
+    }
 
     .sub-cat {
         font-size: 13px; 
@@ -515,6 +524,14 @@ input:checked + .slider:before {
     #tabsJustified li {
         margin-top: 2px;
     }
+
+    .check{
+        font-size: 10px !important;
+        padding-top: 05px !important;
+    }
+    .set-mar{
+        margin-right: 10px !important;
+    }
     
     .cat {
         font-size: 13px; 
@@ -525,6 +542,10 @@ input:checked + .slider:before {
         margin-left: 09px;
         font-size: 11px; 
         line-height: 13px;
+    }
+
+    .set-mt{
+        margin-top: 0 !important;
     }
      
     .sub-cat-sub {
@@ -568,6 +589,10 @@ input:checked + .slider:before {
     
     .fs-17 {
         font-size: 15px;
+        line-height: 17px;
+    }
+    .fs-17-1 {
+        font-size: 09px !important;
         line-height: 17px;
     }
 
@@ -615,10 +640,36 @@ input:checked + .slider:before {
     .set-mar{
         margin-right: 05px !important;
     }
+
+    .set-mar1{
+        margin-left: 0 !important;
+    }
     
     .set-pad{
         padding-left: 0 !important;
         padding-right: 0 !important;
+    }
+
+    .set-pad-r{
+        padding-right: 0 !important;
+    }
+
+    .set-img{
+        width: 120px !important;
+        height: 44px !important;
+    }
+
+    .set-img1{
+        height: 90px !important;
+    }
+    .set-img2{
+        width: 25px;
+        height: 25px;
+    }
+
+    .set-img3{
+        width: 60px !important;
+        height: 30px !important;
     }
 
     .set-height{
@@ -629,6 +680,10 @@ input:checked + .slider:before {
     }
     .set-col-height1{
         height: 129px !important;
+    }
+
+    .set-mt{
+        margin-top: 10px !important;
     }
 
     .pad-top{
@@ -663,6 +718,11 @@ input:checked + .slider:before {
     
     .fs-17 {
         font-size: 13px;
+        line-height: 15px;
+    }
+
+    .fs-17-1 {
+        font-size: 09px !important;
         line-height: 15px;
     }
 
