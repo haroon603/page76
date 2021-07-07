@@ -101,9 +101,15 @@
     border-radius: 7px; 
     border: 1px solid #D1D1D1;
 }
+.dateset1{
+    width: 90px;
+    height: 52px; 
+    border-radius: 7px; 
+    border: 1px solid #D1D1D1;
+}
 
 tr,td{
-    padding-top: 29px !important;
+    padding-top: 20px !important;
 }
 
 .tbl-even thead tr { 
@@ -136,6 +142,11 @@ tr,td{
 
 .col-div2{
     width: 92.5%;
+}
+
+.fs-11{
+    font-size: 11px !important;
+    font-weight: 500 !important;
 }
 
 .fs-12 {
@@ -673,6 +684,10 @@ input:checked + .slider:before {
         height: 30px !important;
     }
 
+    .set-img4{
+        width: 40px !important;
+    }
+
     .set-height{
         height: 35px !important;
     }
@@ -756,6 +771,12 @@ input:checked + .slider:before {
 
     .dateset{
         width: 108px;
+        height: 40px; 
+        border-radius: 7px; 
+        border: 1px solid #D1D1D1;
+    }
+    .dateset1{
+        width: 53px;
         height: 40px; 
         border-radius: 7px; 
         border: 1px solid #D1D1D1;
