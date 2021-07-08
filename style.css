@@ -273,6 +273,20 @@ textarea {
     border: 1px solid black !important;
 }
 
+.checkbox-primary1 {
+    width: 26.5px !important;
+    height: 26.5px !important;
+}
+.checkbox-primary1:checked:before {
+    color: black !important;
+    top: 0px !important;
+    left: 5px !important;
+    font-size: 15px !important;
+}
+.checkbox-primary1:checked {
+    border: 1px solid black !important;
+}
+
 
 
 
@@ -644,6 +658,23 @@ input:checked + .slider:before {
     .checkbox-primary:checked {
         border: 1px solid black !important;
     }
+
+    
+
+    .checkbox-primary1 {
+        width: 14.5px !important;
+        height: 14.5px !important;
+    }
+    .checkbox-primary1:checked:before {
+        color: black !important;
+        top: 0px !important;
+        left: 2px !important;
+        font-size: 09px !important;
+    }
+    .checkbox-primary1:checked {
+        border: 1px solid black !important;
+    }
+
     .check{
         font-size: 10px !important;
         padding-top: 05px !important;
