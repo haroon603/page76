@@ -7,6 +7,10 @@
     background-color: #ffffff !important;
 }
 
+.main-row{
+    height: 66px; 
+}
+
 
 
 .sbar {
@@ -163,6 +167,10 @@ tr,td{
     font-size: 17px;
     line-height: 19px;
     font-weight: 500;
+}
+
+.fs-23{
+    font-size: 23px;
 }
 
 .fs-17-1 {
@@ -686,6 +694,10 @@ input:checked + .slider:before {
         outline: none !important;
     }
 
+    .main-row{
+        height: 50px; 
+    }
+
     
 
     .checkbox-primary1 {
@@ -812,6 +824,10 @@ input:checked + .slider:before {
     .fs-17-1 {
         font-size: 09px !important;
         line-height: 15px;
+    }
+
+    .fs-23{
+        font-size: 18px !important;
     }
 
 
